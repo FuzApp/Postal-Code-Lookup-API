@@ -1,0 +1,10 @@
+fastapi[all]
+psycopg2-binary
+sqlalchemy
+geoalchemy2
+python-dotenv
+pandas
+uvicorn
+pytest
+shapely
+pandas

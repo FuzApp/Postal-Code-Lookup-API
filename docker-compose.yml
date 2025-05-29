@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  db:
+    image: postgis/postgis
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: postcode
+    ports:
+      - "5432:5432"
+  web:
+    build: .
+    depends_on:
+      - db
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://postgres:password@db:5432/postcode
