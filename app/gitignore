@@ -1,0 +1,80 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env/
+.venv/
+ENV/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Django stuff:
+*.log
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.tar
+*.log
+**/node_modules/
+docker-compose.override.yml
+
+# Database files
+*.sqlite3
+
+# Alembic
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
